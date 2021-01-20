@@ -23,12 +23,14 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
 
     <date-picker-component />
+    <apod-display-component />
   </div>
 </template>
 
 <script>
 import { computed } from 'vue'
 import DatePickerComponent from './components/DatePickerComponent.vue'
+import ApodDisplayComponent from './components/ApodDisplayComponent.vue'
 // import HelloWorld from './components/HelloWorld.vue'
 import { AppState } from './AppState'
 
@@ -41,7 +43,8 @@ export default {
   },
   components: {
     // HelloWorld,
-    DatePickerComponent
+    DatePickerComponent,
+    ApodDisplayComponent
   }
 }
 </script>
